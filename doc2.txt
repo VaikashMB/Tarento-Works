@@ -1,0 +1,42 @@
+code implementing polymorphism in python:-
+
+class Shape:
+    def area(self):
+        pass
+
+    def perimeter(self):
+        pass
+
+class Rectangle(Shape):
+    def _init_(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+class Circle(Shape):
+    def _init_(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+    def perimeter(self):
+        return 2 * 3.14 * self.radius
+
+# Create instances of the classes
+rectangle = Rectangle(5, 3)
+circle = Circle(7)
+
+# Call the area() and perimeter() methods on each instance
+print("Rectangle:")
+print("Area:", rectangle.area())           # Output: 15
+print("Perimeter:", rectangle.perimeter()) # Output: 16
+
+print("Circle:")
+print("Area:", circle.area())              # Output: 153.86
+print("Perimeter:", circle.perimeter())    # Output: 43.96
