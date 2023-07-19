@@ -1,0 +1,43 @@
+.main{
+    width: 300px;
+    height: 400px;
+    border:solid 3px;
+    border-radius: 5px;
+    background: black;
+    margin-left: 615px;
+    margin-top: 70px;
+    box-shadow: 1px 1px;
+}
+.head{
+    width: 300px;
+    height: 90px;
+    background: black;
+}
+#display{
+    width: 230px;
+    height: 55px;
+    margin-left: 32px;
+    margin-top: 15px;
+    background: green;
+    pointer-events: none;
+    font-size: x-large;
+
+}
+.btn{
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 18px;
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.txt{
+    color: rgb(191, 163, 24);
+    margin-left: 119px;
+}
+.btn:hover{
+    background: darkgrey;
+}

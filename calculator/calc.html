@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="main">
+       <div class="head">
+        <input id="display"  type="text">
+        <p class="txt">CASIO</p>
+
+
+       </div>
+       <div>
+        <button class="btn" onclick="clearscreen()">C</button>
+        
+       </div>
+       <div>
+        <button class="btn" onclick="clickbutton(7)">7</button>
+        <button class="btn" onclick="clickbutton(8)">8</button>
+        <button class="btn" onclick="clickbutton(9)">9</button>
+        <button class="btn" onclick="clickbutton('/')">/</button>
+       </div>
+       <div>
+        <button class="btn" onclick="clickbutton(4)">4</button>
+        <button class="btn" onclick="clickbutton(5)">5</button>
+        <button class="btn" onclick="clickbutton(6)">6</button>
+        <button class="btn" onclick="clickbutton('*')">*</button>
+       </div>
+       <div>
+        <button class="btn" onclick="clickbutton(1)">1</button>
+        <button class="btn" onclick="clickbutton(2)">2</button>
+        <button class="btn" onclick="clickbutton(3)">3</button>
+        <button class="btn" onclick="clickbutton('+')">+</button>
+       </div>
+       <div>
+        <button class="btn" onclick="clickbutton(0)">0</button>
+        <button class="btn" onclick="clickbutton('.')">.</button>
+        <button class="btn" onclick="equalclick()">=</button>
+        <button class="btn" onclick="clickbutton('-')">-</button>
+       </div>
+
+    </div>
+</body>
+</html>
